@@ -1,0 +1,83 @@
+html {
+    font-family: Georgia, serif;;
+   }
+   
+   
+   /* ++++++++++++++ header +++++++++++++++++++++++++++++++++++++++++++ */
+   #logo-sito{
+       height: 5vh;
+   }
+   header {
+       text-align: center;
+       margin: 1em;
+   }
+   
+   header p {
+       text-align: center;
+       background-color: #FDFBF1;
+       border-top: 1px solid #FFD770 ;
+       padding: 15px;
+   }
+   
+   /* ++++++++++++++ MAIN +++++++++++++++++++++++++++++++++++++++++++ */
+   ul {
+       line-height: 2;   
+   }
+   #ingredienti {
+       text-align: left;
+   }
+   aside {
+       text-align: left;
+   }
+   aside p {
+       color: #B23700;
+   }
+   a {
+       color: #007071;
+   }
+   main {
+       margin: auto;
+       align-items: center;
+       width: 60%;
+   }
+   
+   h1 {
+       margin-top: 80px;
+       text-align: center;
+       /* width: 60%; */
+   
+   }
+   #correlati {
+       border-left: 1px solid #FFD252;
+       padding: 20px 0 10px 20px;
+       line-height: 0;
+       /* margin: 50px 0 50px 0; */
+   }
+   /* ++++++++++++++ immagine focaccia +++++++++++ */
+   
+   #img_focaccia {
+       
+       border-radius: 15px;
+       box-shadow: 5px 5px 10px #c3c2c2;
+   }
+   figcaption {
+       text-align: center;
+       margin: 15px;
+       color: gray;
+   }
+   
+   hr {
+       border-color: #BBF2F1 ;
+   }
+   
+   #method p {
+       padding-left: 40px;
+   }
+   /* ++++++++++++++ footer +++++++++++++++++++++++++++++++++++++++++++ */
+   
+   footer {
+       margin: auto;
+       text-align: left;
+       width: 60%;
+   }
+
