@@ -27,7 +27,7 @@ var numeroDecimale = 0.234;
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-var name = "Martin"
+let myName = 'Martin';
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -41,25 +41,25 @@ console.log((a += b)) //addizione// risultato atteso -->32
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-var x = 12;
+let x = 12;
 
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-var name = "Sesenna"; //cambio la variabile, è possibile perchè non ho impostato const
-const name = "Martin" //imposto const quindi la variabile non si può piu cambiare
-var name = "Sesenna" //impossibile cambiare la variabile
+myName = "Sesenna"; 
+const PI = 3.14; 
+// PI = 3; ->non posso aggiornarenil valore di una costante
+// const PI= 3 -> non si posso ridichiararla (si comporta come let)
 
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let x = 12;
-let y = 4;
-console.log((x -= y));        // sottrazione // risultato atteso -> 8
+let subtraction = 4 - x;
+console.log(subtraction);        // sottrazione // risultato atteso -> 8
 
 
 /* ESERCIZIO 7
@@ -71,6 +71,7 @@ console.log((x -= y));        // sottrazione // risultato atteso -> 8
 let name1 = "john"
 let name2 = "John"
 
-name1 === name2 //false
+console.log ('name1 e name2 sono uguali:',name1 === name2);
+console.log ('name1 e name2 in lowercase sono uguali:', name1.toLowerCase() === name2.ToLowerCase())
 
 
